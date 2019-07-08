@@ -27,8 +27,8 @@ set up the event listener for a card. If a card is clicked:
         + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
 
 The stars rating depends on the number of moves:
-    * :star::star: If the moves  are between 10.
-    * :star: If the moves  are  20 .
+    *:star::star: If the moves  are between 10.
+    *:star: If the moves  are  20 .
 The game ends once all cards have been correctly matched.
 The player could restart the game at any time by clicking on the restart icon.
 
