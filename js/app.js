@@ -91,11 +91,11 @@ window.onload = deckShuffle();
   * matching card, put it into matched cards list
   */
 function matchedCards() {
-      matchCards.push(openCards);
-  for (let mc = 0; mc < openCards.length; mc++) {
-    openCards[mc].classList.remove('open', 'show');
-    openCards[mc].classList.add('match');
-  }
+  matchCards.push(openCards);
+  openCards.forEach(function(card) {
+    card.classList.remove('open', 'show');
+    card.classList.add('match');
+  })
   openCards.splice(0, 2);
 }
 
